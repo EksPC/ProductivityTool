@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"main.java","c":"MainController","l":"changePage(int)"},{"p":"main.java","c":"MainController","l":"getApplicationView()"},{"p":"main.java","c":"MainController","l":"MainController()","u":"%3Cinit%3E()"}];updateSearchResults();
