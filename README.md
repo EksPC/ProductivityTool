@@ -12,7 +12,7 @@ JUnit: JUnit is used for unit testing to ensure the reliability and correctness 
 JAXB: JAXB is used for XML data binding, allowing for the serialization and deserialization of data objects to and from XML format.
 
 ### Usage
-Opening Productivity Tool, you will be presented with the main dashboard containing the current month visualisation, in every cell is displayed the number of tasks to complete.
+Opening Productivity Tool, you will be presented with the main dashboard containing the current month visualisation, in every cell is displayed the number of tasks to complete. You can also visualise the tasks (both completed and not) expiring on a certain date by simply clicking on the corresponding cell.
 In the todo-list section you can visualize both your lists with their tasks, but also a special list called **Today** where you can check for incoming expiration.
 Use the navigation menu, situated to the left, to switch between calendar and to-do section.
 
