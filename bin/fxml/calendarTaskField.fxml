@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER_RIGHT" prefHeight="880.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="title" alignment="CENTER_RIGHT" prefHeight="70.0" prefWidth="284.0" style="-fx-border-color: black; -fx-border-width: 0 0 2 0;" text="Jan">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="980.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="138.0" text="MON">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="138.0" text="TUE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="138.0" text="WED">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="150.0" layoutY="10.0" prefHeight="30.0" prefWidth="138.0" text="THU">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="290.0" layoutY="10.0" prefHeight="30.0" prefWidth="138.0" text="FRI">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="430.0" layoutY="10.0" prefHeight="30.0" prefWidth="138.0" text="SAT">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="570.0" layoutY="10.0" prefHeight="30.0" prefWidth="138.0" text="SUN">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="7.0" />
+         </padding>
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin>
+      </HBox>
+      <StackPane fx:id="mainField" prefHeight="730.0" prefWidth="980.0" />
+   </children>
+   <padding>
+      <Insets left="10.0" right="10.0" />
+   </padding>
+</VBox>

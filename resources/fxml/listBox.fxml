@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="1159.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" layoutX="90.0" layoutY="325.0" prefHeight="80.0" prefWidth="980.0" style="-fx-background-color: white;">
+         <children>
+            <VBox prefHeight="80.0" prefWidth="980.0" styleClass="task" stylesheets="@../style.css">
+               <children>
+                  <CheckBox mnemonicParsing="false" prefHeight="50.0" prefWidth="910.0" style="-fx-background-color: white;" text="CheckBox">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </CheckBox>
+                  <HBox alignment="CENTER_RIGHT" maxWidth="-Infinity" prefHeight="30.0" prefWidth="910.0" style="-fx-background-color: rgb(255, 250, 235);">
+                     <children>
+                        <Label prefHeight="30.0" prefWidth="250.0" text="ListName" />
+                        <Label prefHeight="30.0" prefWidth="250.0" text="20-20-2023" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <ImageView fitHeight="56.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/delete.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="450.0" spacing="10.0" styleClass="list-button" stylesheets="@../style.css">
+         <children>
+            <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pics/trash-bin.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <Label fx:id="listName" layoutX="65.0" layoutY="189.0" prefHeight="80.0" prefWidth="980.0" text="Nome lista">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+   </children>
+</AnchorPane>

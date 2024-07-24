@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="880.0" prefWidth="1540.0" style="-fx-background-color: rgb(255, 252, 242);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="840.0" prefWidth="70.0" style="-fx-background-color: rgb(99, 95, 89);" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="todoButton" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../pics/to-do-list.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="calendarButton" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../pics/calendar.png" />
+               </image>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" top="20.0" />
+         </padding>
+      </VBox>
+   </left>
+   <center>
+      <StackPane prefHeight="880.0" prefWidth="1470.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

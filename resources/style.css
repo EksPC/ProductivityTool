@@ -1,0 +1,177 @@
+.progress-indicator {
+	-fx-progress-color: rgb(235, 94, 40);
+}
+
+.progress-indicator .percentage {
+    -fx-fill: null;
+} 
+
+.focus-management-buttons:hover {
+	-fx-background-color:rgba(63, 41, 43,0.8);
+}
+.scroll-pane .viewport {
+	-fx-background-color: transparent;
+}
+
+.task {
+	-fx-padding: 0 0 0 0;
+	-fx-min-height: 80;
+	-fx-max-width: 940;
+	-fx-font-size: 18;
+	
+}
+
+.task:hover{
+	-fx-background-color: #EF8257;
+	-fx-border-color: black;
+	-fx-border-width: 0 0 0 3;
+}
+
+.list-name {
+	-fx-pref-height: 80;
+	-fx-pref-width: 395;
+	-fx-padding: 0 0 0 10;
+}
+
+.infoBox {
+	-fx-max-width: 500;
+	
+}
+
+
+.check-box .box {
+	
+	-fx-background-color: white;
+	-fx-border-color:grey;
+	-fx-border-radius:3px; 
+
+}
+
+.check-box:selected .mark {
+
+	-fx-background-color: white;
+
+}
+
+.check-box:selected .box {
+
+	-fx-background-color: rgb(235, 94, 40);
+}
+
+.text-area .content {
+    -fx-background-color: rgb(204, 197, 185) ;
+    -fx-border-color: black;
+}
+
+
+.focus-clock-button{
+	-fx-background-color:  rgb(63, 41, 43);
+	-fx-pref-width: 100;
+	-fx-pref-heigth: 50;
+	-fx-text-fill: #d34f73;
+	-fx-font-size: 18;
+	-fx-font-weight: bold;
+}
+
+
+.list-button {
+	-fx-pref-width: 440;
+	-fx-pref-heigth: 50;
+	-fx-font-size: 24;
+	-fx-font-weight: bold;
+	-fx-background-color: rgb(204, 197, 185);
+	-fx-text-fill: rgb(235, 94, 40);
+	-fx-padding-left: 25
+}
+
+.list-button:hover {
+	-fx-background-color: #c5c3bf;
+}
+
+
+
+.calendar {
+	-fx-min-height: 840;
+	-fx-min-width: 1200;
+}
+
+.cell {
+	-fx-border-color: black;
+}
+
+.calendar-list-checkbox {
+	-fx-pref-width: 460;
+	-fx-pref-heigth: 60;
+	-fx-padding: 10;
+	-fx-text-fill: white;
+}
+
+.calendar-list-checkbox:hover {
+	-fx-background-color: rgb(204, 197, 185); 
+}
+
+
+.calendar-button {
+	-fx-pref-width: 80;
+	-fx-pref-heigth: 30;
+	-fx-border-color: black;
+	-fx-border-radius: 1;
+	-fx-background-color: orange;
+}
+
+.calendar-navigator Line{
+	-fx-stroke:  rgb(255, 252, 242);
+}
+
+
+.calendar-navigator-button {
+	
+	-fx-pref-width: 48;
+	-fx-pref-height: 48;
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	
+}
+
+
+.list-view-calendar .list-cell:even {
+-fx-background-color: blue;
+-fx-text-fill: black;
+}
+.list-view-calendar .list-cell:odd {
+-fx-background-color: blue;
+-fx-text-fill: black;
+}
+
+
+.list-container {
+	
+}
+
+.list-container .list-cell:even {
+	-fx-background-color: rgb(204, 197, 185);
+	-fx-text-fill: black;
+}
+.list-container .list-cell:odd {
+	-fx-background-color: rgb(204, 197, 185);
+	-fx-text-fill: black;
+}
+
+.single-day{
+	-fx-background-color: grey;	
+}
+
+.single-day:hover {
+	-fx-border-width: 2;
+	-fx-border-color: black;	 
+}
+
+
+
+
+
+
+
+
+
+

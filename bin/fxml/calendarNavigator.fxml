@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="880.0" prefWidth="460.0" style="-fx-background-color: rgb(37, 36, 3); -fx-border-width: 0 2 0 0; -fx-border-color: black;" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="460.0" spacing="50.0" style="-fx-border-width: 0 0 2 0; -fx-border-color: rgb(255, 252, 242);">
+         <children>
+            <Button fx:id="monthButton" mnemonicParsing="false" styleClass="calendar-button" stylesheets="@../style.css" text="Month" />
+            <Button fx:id="DayButton" layoutX="805.0" layoutY="48.0" mnemonicParsing="false" onAction="#displayDay" styleClass="calendar-button" stylesheets="@../style.css" text="Day" />
+         </children>
+      </HBox>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="45.0" prefWidth="420.0">
+         <VBox.margin>
+            <Insets bottom="-10.0" top="20.0" />
+         </VBox.margin>
+         <padding>
+            <Insets left="35.0" right="35.0" />
+         </padding>
+         <children>
+            <Label alignment="CENTER" layoutX="195.0" layoutY="21.0" prefHeight="20.0" prefWidth="50.0" text="MON" textFill="#fffcf2">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="195.0" layoutY="21.0" prefHeight="20.0" prefWidth="50.0" text="TUE" textFill="#fffcf2">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="170.0" layoutY="21.0" prefHeight="20.0" prefWidth="50.0" text="WED" textFill="#fffcf2">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="220.0" layoutY="21.0" prefHeight="20.0" prefWidth="50.0" text="THU" textFill="#fffcf2">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="120.0" layoutY="21.0" prefHeight="20.0" prefWidth="50.0" text="FRI" textFill="#fffcf2">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="170.0" layoutY="21.0" prefHeight="20.0" prefWidth="50.0" text="SAT" textFill="#fffcf2">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="220.0" layoutY="21.0" prefHeight="20.0" prefWidth="50.0" text="SUN" textFill="#fffcf2">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <GridPane fx:id="calendarNavigator" alignment="CENTER" gridLinesVisible="true" maxWidth="350.0" prefHeight="300.0" prefWidth="350.0" style="-fx-border-color: white; -fx-grid-lines-visible: true;" styleClass="calendar-navigator" stylesheets="@../style.css">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <VBox.margin>
+            <Insets top="30.0" />
+         </VBox.margin>
+      </GridPane>
+      <HBox alignment="CENTER" prefHeight="40.0" prefWidth="458.0" spacing="20.0">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+         <children>
+            <Button fx:id="prevMonthButton" mnemonicParsing="false" prefWidth="100.0" styleClass="calendar-button" stylesheets="@../style.css">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="monthNameField" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="nextMonthButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="99.0" styleClass="calendar-button" stylesheets="@../style.css">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="880.0" prefWidth="1480.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <StackPane prefHeight="80.0" prefWidth="1480.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" maxHeight="80.0" maxWidth="540.0" prefHeight="78.0" prefWidth="1429.0" spacing="10.0" style="-fx-background-color: rgb(255, 252, 242);">
+               <children>
+                  <Button fx:id="monthButton" mnemonicParsing="false" prefHeight="24.0" prefWidth="90.0" text="Month" />
+                  <Button fx:id="weekButton" mnemonicParsing="false" prefWidth="90.0" text="Week" />
+                  <Button fx:id="dayButton" mnemonicParsing="false" prefWidth="90.0" text="Day" />
+               </children>
+            </HBox>
+         </children>
+      </StackPane>
+   </top>
+   <left>
+      <VBox fx:id="navigatorField" prefHeight="800.0" prefWidth="472.0" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <StackPane fx:id="centerField" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tasksStorage>
+    <todoLists>
+        <entry>
+            <key>Study</key>
+            <value>
+                <id>Study</id>
+                <tasks>
+                    <expiration>2024-07-24</expiration>
+                    <name>Ask Mr Poggi for Laude</name>
+                    <listName>Study</listName>
+                    <completed>false</completed>
+                    <expirationFlag>true</expirationFlag>
+                </tasks>
+                <completedTasks>0</completedTasks>
+            </value>
+        </entry>
+        <entry>
+            <key>Java Project</key>
+            <value>
+                <id>Java Project</id>
+                <tasks>
+                    <expiration></expiration>
+                    <name>Generate Javadocs</name>
+                    <listName>Java Project</listName>
+                    <completed>true</completed>
+                    <expirationFlag>true</expirationFlag>
+                </tasks>
+                <tasks>
+                    <expiration></expiration>
+                    <name>Fix Bugs</name>
+                    <listName>Java Project</listName>
+                    <completed>true</completed>
+                    <expirationFlag>true</expirationFlag>
+                </tasks>
+                <tasks>
+                    <expiration>2024-07-24</expiration>
+                    <name>Project delivery</name>
+                    <listName>Java Project</listName>
+                    <completed>true</completed>
+                    <expirationFlag>true</expirationFlag>
+                </tasks>
+                <tasks>
+                    <expiration></expiration>
+                    <name>Project presentation</name>
+                    <listName>Java Project</listName>
+                    <completed>true</completed>
+                    <expirationFlag>true</expirationFlag>
+                </tasks>
+                <completedTasks>0</completedTasks>
+            </value>
+        </entry>
+    </todoLists>
+    <calendarTasks>
+        <entry>
+            <key></key>
+            <value>
+                <id></id>
+                <tasks>
+                    <expiration></expiration>
+                    <name>Generate Javadocs</name>
+                    <listName>Java Project</listName>
+                    <completed>true</completed>
+                    <expirationFlag>true</expirationFlag>
+                </tasks>
+                <tasks>
+                    <expiration></expiration>
+                    <name>Fix Bugs</name>
+                    <listName>Java Project</listName>
+                    <completed>true</completed>
+                    <expirationFlag>true</expirationFlag>
+                </tasks>
+                <tasks>
+                    <expiration></expiration>
+                    <name>Project presentation</name>
+                    <listName>Java Project</listName>
+                    <completed>false</completed>
+                    <expirationFlag>true</expirationFlag>
+                </tasks>
+                <tasks>
+                    <expiration></expiration>
+                    <name>Project presentation</name>
+                    <listName>Java Project</listName>
+                    <completed>true</completed>
+                    <expirationFlag>true</expirationFlag>
+                </tasks>
+                <completedTasks>0</completedTasks>
+            </value>
+        </entry>
+        <entry>
+            <key>2024-07-24</key>
+            <value>
+                <id>2024-07-24</id>
+                <tasks>
+                    <expiration>2024-07-24</expiration>
+                    <name>Ask Mr Poggi for Laude</name>
+                    <listName>Study</listName>
+                    <completed>false</completed>
+                    <expirationFlag>true</expirationFlag>
+                </tasks>
+                <tasks>
+                    <expiration>2024-07-24</expiration>
+                    <name>Project delivery</name>
+                    <listName>Java Project</listName>
+                    <completed>true</completed>
+                    <expirationFlag>true</expirationFlag>
+                </tasks>
+                <completedTasks>1</completedTasks>
+            </value>
+        </entry>
+    </calendarTasks>
+</tasksStorage>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER" maxHeight="50.0" prefHeight="50.0" spacing="40.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="restartButton" fitHeight="40.0" fitWidth="80.0" onMouseClicked="#restartSession" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/restart.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="startButton" fitHeight="40.0" fitWidth="80.0" onMouseClicked="#startSession" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pauseAndContinueButton" fitHeight="40.0" fitWidth="80.0" onMouseClicked="#buttonClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/pause.png" />
+         </image>
+      </ImageView>
+   </children>
+</HBox>

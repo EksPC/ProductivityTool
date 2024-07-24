@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="860.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane fx:id="clockField" prefHeight="505.0" prefWidth="780.0">
+         <children>
+            <StackPane maxHeight="400.0" maxWidth="400.0" prefHeight="400.0" prefWidth="400.0">
+               <children>
+                  <ProgressIndicator fx:id="progressIndicator" depthTest="DISABLE" minHeight="380.0" minWidth="380.0" prefHeight="380.0" prefWidth="380.0" progress="0.57" stylesheets="@../style.css" StackPane.alignment="TOP_CENTER">
+                     <StackPane.margin>
+                        <Insets top="58.0" />
+                     </StackPane.margin>
+                  </ProgressIndicator>
+                  <Circle fx:id="cover" fill="#eb5e28" radius="180.0" stroke="BLACK" strokeType="INSIDE">
+                     <StackPane.margin>
+                        <Insets top="40.0" />
+                     </StackPane.margin>
+                  </Circle>
+                  <Circle fill="#fffcf2" radius="140.0" stroke="BLACK" strokeType="INSIDE" StackPane.alignment="TOP_CENTER">
+                     <StackPane.margin>
+                        <Insets top="100.0" />
+                     </StackPane.margin>
+                  </Circle>
+                  <HBox fx:id="timeField" maxHeight="-Infinity" maxWidth="-Infinity">
+                     <children>
+                        <Label alignment="CENTER_RIGHT" prefHeight="70.0" text="1">
+                           <font>
+                              <Font name="System Bold Italic" size="40.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" prefHeight="55.0" text="h">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="70.0" text="3">
+                           <font>
+                              <Font name="System Bold Italic" size="40.0" />
+                           </font>
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </Label>
+                        <Label alignment="BOTTOM_CENTER" prefHeight="55.0" text="min">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <StackPane.margin>
+                        <Insets top="50.0" />
+                     </StackPane.margin>
+                  </HBox>
+                  <Label fx:id="timeDescriptor" alignment="CENTER" prefHeight="16.0" prefWidth="130.0" text="focus">
+                     <StackPane.margin>
+                        <Insets bottom="100.0" />
+                     </StackPane.margin>
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+         </children>
+      </StackPane>
+      <HBox alignment="CENTER" maxHeight="50.0" prefHeight="50.0" spacing="40.0">
+         <children>
+            <ImageView fx:id="restartButton" fitHeight="40.0" fitWidth="80.0" onMouseClicked="#restartSession" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pics/restart.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="startButton" fitHeight="40.0" fitWidth="80.0" onMouseClicked="#startSession" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pics/play.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pauseAndContinueButton" fitHeight="40.0" fitWidth="80.0" onMouseClicked="#buttonClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pics/pause.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</VBox>
